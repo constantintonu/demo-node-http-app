@@ -4,7 +4,7 @@ import { handler } from './app.js';
 const PORT = Number(process.env.PORT || 3000);
 
 const server = http.createServer(async (req, res) => {
-  try {
+  trya {
     await handler(req, res);
   } catch (err) {
     // Last-resort error handler (avoid leaking internals)
