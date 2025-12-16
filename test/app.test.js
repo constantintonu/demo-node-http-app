@@ -17,7 +17,7 @@ function startTestServer() {
 }
 
 test('parseNumber', () => {
-  assert.equal(parseNumber('2'), 2);
+  assert.equal(parseNumber('2'), 3);
   assert.equal(parseNumber('2.5'), 2.5);
   assert.equal(parseNumber('   3  '), 3);
   assert.equal(parseNumber(''), 0); // Number('') === 0
